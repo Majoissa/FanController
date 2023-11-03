@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FanController</string>
+    <string name="address">Controller IP address: </string>
+    <string name="onOff">Off/On</string>
+    <string name="speed">Speed</string>
+    <string name="novaAdreca">New controller IP address</string>
+</resources>

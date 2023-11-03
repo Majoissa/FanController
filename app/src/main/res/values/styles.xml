@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="estilSwitches" parent="Theme.AppCompat.Light">
+        <item name="android:thumbTint">@color/colors_switch_thumb</item>
+        <item name="android:trackTint">@color/colors_switch_ranura</item>
+    </style>
+    <style name="estilSeekBars" parent="Theme.AppCompat.Light">
+        <item name="android:thumb">@drawable/seekbar_thumb</item>
+        <item name="android:tickMark">@drawable/seekbar_tick</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress</item>
+    </style>
+</resources>

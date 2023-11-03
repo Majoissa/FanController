@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/progress"
+        android:gravity="center_vertical|fill_horizontal">
+        <selector>
+            <item android:state_enabled="true">
+                <shape android:shape="rectangle" android:tint="#FFD0FFD0">
+                    <corners android:radius="5dp" />
+                    <size android:height="5dp" />
+                </shape>
+            </item>
+            <item android:state_enabled="false">
+                <shape android:shape="rectangle" android:tint="#FFEEEEEE">
+                    <corners android:radius="5dp" />
+                    <size android:height="5dp" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+    <item android:id="@+id/secondaryProgress"
+        android:gravity="center_vertical|fill_horizontal">
+        <scale android:scaleWidth="100%">
+            <selector>
+                <item android:state_enabled="true">
+                    <shape android:shape="rectangle" android:tint="#FF208020">
+                        <corners android:radius="5dp" />
+                        <size android:height="5dp" />
+                    </shape>
+                </item>
+                <item android:state_enabled="false">
+                    <shape android:shape="rectangle" android:tint="#FFAAAAAA">
+                        <corners android:radius="5dp" />
+                        <size android:height="5dp" />
+                    </shape>
+                </item>
+            </selector>
+        </scale>
+    </item>
+</layer-list>
