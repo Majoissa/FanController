@@ -4,7 +4,7 @@
         <shape
             android:shape="ring"
             android:innerRadius="4dp"
-            android:thinckness="8dp"
+            android:thickness="8dp"
             android:useLevel="false"
             android:tint="#FF44A545"
             android:opticalInsetLeft="24dp"
